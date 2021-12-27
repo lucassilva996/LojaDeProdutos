@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaProdutos.Application", "LojaProdutos.Application\LojaProdutos.Application.csproj", "{14BBE3C2-F10C-47CB-9A85-B40B5ECB5E51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaProdutos.Application", "LojaProdutos.Application\LojaProdutos.Application.csproj", "{14BBE3C2-F10C-47CB-9A85-B40B5ECB5E51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaProdutos.Domain", "LojaProdutos.Domain\LojaProdutos.Domain.csproj", "{0BD7DE32-0B72-40FD-9671-81617242E040}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaProdutos.Domain", "LojaProdutos.Domain\LojaProdutos.Domain.csproj", "{0BD7DE32-0B72-40FD-9671-81617242E040}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaProdutos.Infra.Data", "LojaProdutos.Infra.Data\LojaProdutos.Infra.Data.csproj", "{9B4E9BDB-C5E7-4E8B-B53A-0AAA44C87DB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaProdutos.Infra.Data", "LojaProdutos.Infra.Data\LojaProdutos.Infra.Data.csproj", "{9B4E9BDB-C5E7-4E8B-B53A-0AAA44C87DB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaProdutos.Infrastructure.IoC", "LojaProdutos.Infrastructure.IoC\LojaProdutos.Infrastructure.IoC.csproj", "{3624FA60-0CBA-433F-B545-E17186178877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaProdutos.Infrastructure.IoC", "LojaProdutos.Infrastructure.IoC\LojaProdutos.Infrastructure.IoC.csproj", "{3624FA60-0CBA-433F-B545-E17186178877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaProdutos.Web.Mvc", "LojaProdutos.Web.Mvc\LojaProdutos.Web.Mvc.csproj", "{B924D788-C009-4126-86C7-E104FA5CD94D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3624FA60-0CBA-433F-B545-E17186178877}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3624FA60-0CBA-433F-B545-E17186178877}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3624FA60-0CBA-433F-B545-E17186178877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B924D788-C009-4126-86C7-E104FA5CD94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B924D788-C009-4126-86C7-E104FA5CD94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B924D788-C009-4126-86C7-E104FA5CD94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B924D788-C009-4126-86C7-E104FA5CD94D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
