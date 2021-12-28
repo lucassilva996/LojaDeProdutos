@@ -1,4 +1,5 @@
 using LojaProdutos.Infra.Data.Context;
+using LojaProdutos.Infrastructure.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,7 +33,14 @@ namespace LojaProdutos.Web.Mvc
                 options.UseSqlServer(
                     Configuration.GetConnectionString("LojaProdutosConnection"));
             });
+
+            RegisterServices(services);
             services.AddControllersWithViews();
+        }
+
+        private static void RegisterServices(IServiceCollection services)
+        {
+            DependencyContainer.RegisterServices(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
